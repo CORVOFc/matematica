@@ -1,0 +1,78 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 2em 0;
+}
+
+main {
+    width: 80%;
+    margin: 20px auto;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.algebra {
+    background-image: linear-gradient(to right, #e6f7ff, #b3e0ff);
+}
+
+.geometria {
+    background-image: linear-gradient(to right, #f0fff3, #ccf0dd);
+}
+
+.calculo {
+    background-image: linear-gradient(to right, #fff8f0, #ffe0b3);
+}
+
+.estatistica {
+    background-image: linear-gradient(to right, #f8f0ff, #d1b3ff);
+}
+
+.trigonometria {
+   background-image: linear-gradient(to right, #f0ffff, #b3ffff);
+}
+
+h2 {
+    color: #007bff;
+}
+
+h3 {
+    color: #007bff;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+a {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+a:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
