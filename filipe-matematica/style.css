@@ -1,78 +1,79 @@
-body {
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
-}
-
-header {
-    background-color: #007bff;
-    color: #fff;
-    text-align: center;
-    padding: 2em 0;
-}
-
-main {
-    width: 80%;
-    margin: 20px auto;
-}
-
-section {
-    background-color: #fff;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.algebra {
-    background-image: linear-gradient(to right, #e6f7ff, #b3e0ff);
-}
-
-.geometria {
-    background-image: linear-gradient(to right, #f0fff3, #ccf0dd);
-}
-
-.calculo {
-    background-image: linear-gradient(to right, #fff8f0, #ffe0b3);
-}
-
-.estatistica {
-    background-image: linear-gradient(to right, #f8f0ff, #d1b3ff);
-}
-
-.trigonometria {
-   background-image: linear-gradient(to right, #f0ffff, #b3ffff);
-}
-
-h2 {
-    color: #007bff;
-}
-
-h3 {
-    color: #007bff;
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 5px;
-}
-
-a {
-    display: inline-block;
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 15px;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 10px;
-}
-
-a:hover {
-    background-color: #0056b3;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1em 0;
-}
+/* Definição das cores usando os nomes em inglês para referência */
+:root {
+    --dark-emerald: #2F4F4F; /* Verde Esmeralda Escuro */
+    --light-beige: #FAF5EE;   /* Bege Claro */
+    --accent-color: #8FBC8F;  /* Verde Marinho Médio (um tom mais claro para destaque) */
+  }
+  
+  body {
+      font-family: 'Arial', sans-serif; /* Uma fonte um pouco mais moderna */
+      margin: 0;
+      padding: 0;
+      background-color: var(--light-beige); /* Usando o bege claro como fundo principal */
+      color: var(--dark-emerald);        /* Usando o verde esmeralda escuro para o texto principal */
+      line-height: 1.7; /* Aumentei um pouco a line-height para melhor leitura */
+  }
+  
+  header {
+      background-color: var(--dark-emerald); /* Barra de cabeçalho verde esmeralda escura */
+      color: var(--light-beige);        /* Texto da cabeçalho em bege claro */
+      padding: 1.5em 0; /* Aumentei o padding para dar mais espaço */
+      text-align: center;
+      border-bottom: 2px solid var(--accent-color); /* Adicionei uma borda inferior para destaque */
+  }
+  
+  main {
+      width: 85%; /* Aumentei um pouco a largura */
+      margin: 30px auto; /* Aumentei a margem superior e inferior */
+      background-color: #fff; /* Um fundo branco ou quase branco para o conteúdo principal para contraste */
+      padding: 30px; /* Aumentei o padding interno */
+      border-radius: 12px; /* Aumentei o arredondamento das bordas */
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra mais pronunciada */
+  }
+  
+  .conceito {
+      margin-bottom: 30px; /* Aumentei a margem inferior entre os conceitos */
+      padding: 20px; /* Aumentei o padding interno dos conceitos */
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      background-color: #f9f9f9; /* Adicionei um leve background para os conceitos */
+  }
+  
+  .conceito h2 {
+      color: var(--dark-emerald);
+      border-bottom: 3px solid var(--accent-color); /* Destaque na linha inferior do título */
+      padding-bottom: 8px;
+      margin-top: 0;
+      font-size: 1.8em; /* Aumentei o tamanho da fonte do título */
+  }
+  
+  .conceito p {
+      margin-bottom: 1em; /* Adicionei margem inferior aos parágrafos */
+  }
+  
+  .exemplo {
+      background-color: var(--light-beige); /* Fundo do exemplo na cor bege clara */
+      padding: 15px;
+      border-left: 6px solid var(--accent-color); /* Destaque na borda esquerda */
+      margin-top: 15px;
+      border-radius: 5px;
+  }
+  
+  .exemplo h3 {
+      color: var(--accent-color); /* Cor do título do exemplo */
+      margin-top: 0;
+      font-weight: bold; /* Coloquei o título do exemplo em negrito */
+  }
+  
+  .exemplo ul {
+      list-style-type: disc;
+      margin-left: 20px;
+  }
+  
+  footer {
+      text-align: center;
+      padding: 1.5em 0;
+      background-color: var(--dark-emerald);
+      color: var(--light-beige);
+      margin-top: 40px; /* Aumentei a margem superior do rodapé */
+  }
